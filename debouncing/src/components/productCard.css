@@ -1,0 +1,46 @@
+.container{
+   
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.card{
+    margin: 0%;
+  width: 80%;
+  height: auto; 
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #888888;
+}
+img{
+    width: 200px;
+    height: 100px;
+    align-self: center;
+    border-radius: 4px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category{
+    background-color: aquamarine;
+    padding:5px 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px 2px #00000070;
+}
+ 
+.price{
+    background-color: teal;
+    padding:5px 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px 2px #00000070;
+}
+

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes progress {
+    0% {
+      transform: scaleX(1);
+      transform-origin: right;
+    }
+    100% {
+      transform: scaleX(0);
+      transform-origin: right;
+    }
+  }
+  
+  .animate-progress {
+    animation: progress linear forwards;
+    animation-duration: var(--timer-duration, 5s); /* default to 5s */
+  }
+  
